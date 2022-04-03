@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Profile card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+      #top-design {
+        width: 100%;
+        position: absolute;
+        top: -20%;
+        left: -50%;
+      }
+      #the-body {
+        background-color: hsl(185, 75%, 39%);
+        font-family: "Kumbh Sans";
+      }
+      #white-container {
+        width: 80%;
+        height: 120vw;
+        background: white;
+        position: absolute;
+        top: 20%;
+        margin-left: 5%;
+        border-radius: 25px;
+        z-index: 5;
+      }
+      #complex-pattern {
+        width: 100%;
+        border-radius: 25px 25px 0px 0px;
+      }
+      #the-guy {
+        border-radius: 50%;
+        position: absolute;
+        top: 15%;
+        left: 30%;
+        width: 30vw;
+        border: solid;
+        border-color: white;
+        border-width: 6px;
+      }
+      #name-text {
+        font-size: 8vw;
+        text-align: center;
+        margin-top: 25vw;
+      }
+      #town {
+        text-align: center;
+        font-size: 5vw;
+        color: hsl(0, 0%, 59%);
+      }
+      #for-the-footer {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 10vw;
+        margin-right: 10vw;
+        font-size: 5vw;
+      }
+      #bottom-design {
+        width: 60%;
+        position: relative;
+        top: 70vh;
+        left: 40vw;
+      }
+      #number {
+        color: hsl(0, 0%, 59%);
+      }
+      #follow {
+        color: hsl(0, 0%, 59%);
+      }
+      #like {
+        color: hsl(0, 0%, 59%);
+      }
+      #photo {
+        color: hsl(0, 0%, 59%);
+        font-family: ;
+      }
+    </style>
+  </head>
+  <body id="the-body">
+    <img id="top-design" alt="background" src="images/bg-pattern-top.svg" />
+
+    <div id="white-container">
+      <img
+        id="complex-pattern"
+        alt="patternbg"
+        src="images/bg-pattern-card.svg"
+      />
+      <img id="the-guy" alt="my-guy" src="images/image-victor.jpg" />
+      <h1 id="name-text">Victor Crest<strong id="number"> 26</strong></h1>
+      <h2 id="town">London</h2>
+      <hr />
+      <footer id="for-the-footer">
+        <div>
+          <h2>80K</h2>
+          <p id="follow">Followers</p>
+        </div>
+        <div>
+          <h2>803k</h2>
+          <p id="like">Likes</p>
+        </div>
+        <div>
+          <h2>1.4k</h2>
+          <p id="photo">Photos</p>
+        </div>
+      </footer>
+    </div>
+    
+      <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Bobby</a>.
+  </body>
+</html>
